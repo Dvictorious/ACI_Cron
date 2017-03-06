@@ -1,0 +1,172 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="OdysseyUN" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">root</Value>
+    </Setting>
+    <Setting Name="OdysseyPW" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">POIaxp</Value>
+    </Setting>
+    <Setting Name="RecentJpegTransfer" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">04/14/2013 11:38:00</Value>
+    </Setting>
+    <Setting Name="LocalConString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=ResearchX\SPECTDATA2012;Initial Catalog=Spect_Data;Integrated Security=True&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=ResearchX\SPECTDATA2012;Initial Catalog=Spect_Data;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="RecentSpectTransfer" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">04/14/2013 20:17:00</Value>
+    </Setting>
+    <Setting Name="MySQLInquiryConString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Server=142.4.9.234;Database=amenclin_aci;Uid=amenclin_admin;Pwd=Lakers1;Use Procedure Bodies=false;&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Server=142.4.9.234;Database=amenclin_aci;Uid=amenclin_admin;Pwd=Lakers1;Use Procedure Bodies=false;</Value>
+    </Setting>
+    <Setting Name="MarketingConString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=ResearchX\Marketing;Initial Catalog=MarketResearch;Integrated Security=True&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=ResearchX\Marketing;Initial Catalog=MarketResearch;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="RecentOnlineInquiryTransfer" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">04/14/2013 11:38:00</Value>
+    </Setting>
+    <Setting Name="JpegTransferStatusList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</Value>
+    </Setting>
+    <Setting Name="SpectTransferStatusList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</Value>
+    </Setting>
+    <Setting Name="IFileTransferStatusList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</Value>
+    </Setting>
+    <Setting Name="OnlineInquiryStatusList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</Value>
+    </Setting>
+    <Setting Name="NextIFileNumber" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">95724</Value>
+    </Setting>
+    <Setting Name="TSTDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\10.1.1.23\The_Vault\NIC\Programme</Value>
+    </Setting>
+    <Setting Name="RecentIFileTransfer" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">04/14/2013 11:38:00</Value>
+    </Setting>
+    <Setting Name="MySQLIntakeConString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=192.185.47.174;Database=ab77527_intakes;Uid=ab77527_admin;Pwd=Amen123</Value>
+    </Setting>
+    <Setting Name="ReadingImportStatusList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</Value>
+    </Setting>
+    <Setting Name="RecentReadingsTransfer" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">04/14/2013 11:38:00</Value>
+    </Setting>
+    <Setting Name="ResearchConString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=ResearchX\Research;Initial Catalog=ImportData;Integrated Security=True&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=ResearchX\Research;Initial Catalog=ImportData;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="JpegWatcher" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">02/26/2014 13:06:00</Value>
+    </Setting>
+    <Setting Name="SpectWatcher" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">02/26/2014 13:06:00</Value>
+    </Setting>
+    <Setting Name="DirectoryScannerLocation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\apickles\AppData\Local\Apps\2.0\WH83XT8L.W6Q\ZWOWQ180.RHO\dire..tion_9d3cf6c3413069c2_0001.0000_0e03bbbc511545c0\DirectoryScanner</Value>
+    </Setting>
+    <Setting Name="SpectTransferSourceListReadyFile" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;192.168.0.25&lt;/string&gt;
+  &lt;string&gt;192.168.0.20&lt;/string&gt;
+  &lt;string&gt;192.168.2.5&lt;/string&gt;
+  &lt;string&gt;192.168.2.7&lt;/string&gt;
+  &lt;string&gt;192.168.1.5&lt;/string&gt;
+  &lt;string&gt;192.168.10.2&lt;/string&gt;
+  &lt;string&gt;192.168.11.2&lt;/string&gt;
+  &lt;string&gt;192.168.3.5&lt;/string&gt;
+  &lt;string&gt;192.168.10.3&lt;/string&gt;
+  &lt;string&gt;192.168.1.6&lt;/string&gt;
+  &lt;string&gt;192.168.3.4&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="SpectTransferSourceListFTP" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;192.168.0.25/img9&lt;/string&gt;
+  &lt;string&gt;192.168.0.20/img4&lt;/string&gt;
+  &lt;string&gt;192.168.2.5/img33&lt;/string&gt;
+  &lt;string&gt;192.168.2.7/img36&lt;/string&gt;
+  &lt;string&gt;192.168.1.5/img0&lt;/string&gt;
+  &lt;string&gt;192.168.1.5/img6&lt;/string&gt;
+  &lt;string&gt;192.168.1.6/img12&lt;/string&gt;
+  &lt;string&gt;192.168.1.6/img11&lt;/string&gt;
+  &lt;string&gt;192.168.10.2/img21&lt;/string&gt;
+  &lt;string&gt;192.168.10.3/img22&lt;/string&gt;
+  &lt;string&gt;192.168.11.2/img25&lt;/string&gt;
+  &lt;string&gt;192.168.3.5/img41&lt;/string&gt;
+  &lt;string&gt;192.168.3.5/img42&lt;/string&gt;
+  &lt;string&gt;192.168.3.4/img40&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="FloodsList" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Flood Quality Images&lt;/string&gt;
+  &lt;string&gt;Weekly Bars&lt;/string&gt;
+  &lt;string&gt;flood head three^111&lt;/string&gt;
+  &lt;string&gt;flood head two^11121&lt;/string&gt;
+  &lt;string&gt;flood head one^11121&lt;/string&gt;
+  &lt;string&gt;flood^111212&lt;/string&gt;
+  &lt;string&gt;FLOODS&lt;/string&gt;
+  &lt;string&gt;Sensitivity Floods&lt;/string&gt;
+  &lt;string&gt;Flood LEUHR&lt;/string&gt;
+  &lt;string&gt;Flood Map Files&lt;/string&gt;
+  &lt;string&gt;Flood Head 3&lt;/string&gt;
+  &lt;string&gt;Flood Head 2&lt;/string&gt;
+  &lt;string&gt;FLOOD TEST&lt;/string&gt;
+  &lt;string&gt;intrinsic flood&lt;/string&gt;
+  &lt;string&gt;Bar Phantom&lt;/string&gt;
+  &lt;string&gt;BAR CAM 1&lt;/string&gt;
+  &lt;string&gt;Bars&lt;/string&gt;
+  &lt;string&gt;Bars CAM1&lt;/string&gt;
+  &lt;string&gt;Bars CAM 1&lt;/string&gt;
+  &lt;string&gt;Weekly Bars&lt;/string&gt;
+  &lt;string&gt;WEEKLY BARS&lt;/string&gt;
+  &lt;string&gt;000-00-0000-1&lt;/string&gt;
+  &lt;string&gt;Uniformity&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="JpegTransferSrcDestList" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;192.168.0.25/img9/prism/images/2015;\\ac2\data\Patient Archive\Newport&lt;/string&gt;
+  &lt;string&gt;192.168.0.20/img4/prism/images/2015;\\ac2\data\Patient Archive\Newport&lt;/string&gt;
+  &lt;string&gt;192.168.2.5/img33/prism/images/2015;\\ac2\data\Patient Archive\Bellevue&lt;/string&gt;
+  &lt;string&gt;192.168.2.7/img36/prism/images/2015;\\ac2\data\Patient Archive\Bellevue&lt;/string&gt;
+  &lt;string&gt;192.168.1.5/img6/Images/2015;\\ac2\data\Patient Archive\Fairfield&lt;/string&gt;
+  &lt;string&gt;192.168.1.6/img12/prism/images/2015;\\ac2\data\Patient Archive\Fairfield&lt;/string&gt;
+  &lt;string&gt;192.168.10.2/img21/prism/images/2015;\\ac2\data\Patient Archive\Atlanta&lt;/string&gt;
+  &lt;string&gt;192.168.10.3/img22/prism/images/2015;\\ac2\data\Patient Archive\Atlanta&lt;/string&gt;
+  &lt;string&gt;192.168.11.2/img25/prism/images/2015;\\ac2\data\Patient Archive\New York&lt;/string&gt;
+  &lt;string&gt;192.168.3.4/img40/prism/images/2015;\\ac2\data\Patient Archive\Reston&lt;/string&gt;
+  &lt;string&gt;192.168.3.5/img41/prism/images/2015;\\ac2\data\Patient Archive\Reston&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

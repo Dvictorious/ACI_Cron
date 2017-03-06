@@ -1,0 +1,22 @@
+Original Settings J
+192.168.0.25/img9/prism/images/2014;\\ac2\data\Patient Archive\Newport
+192.168.0.20/img4/prism/images/2014;\\ac2\data\Patient Archive\Newport
+192.168.2.5/img33/prism/images/2014;\\ac2\data\Patient Archive\Bellevue
+192.168.2.7/img36/prism/images/2014;\\ac2\data\Patient Archive\Bellevue
+192.168.1.5/img6/Images/2014;\\ac2\data\Patient Archive\Fairfield
+192.168.10.2/img21/prism/images/2014;\\ac2\data\Patient Archive\Atlanta
+192.168.11.2/img25/prism/images/2014;\\ac2\data\Patient Archive\New York
+192.168.3.5/img41/prism/images/2014;\\ac2\data\Patient Archive\Reston
+
+
+New Settings
+
+192.168.0.25/img9/prism/images;\\ac2\data\Patient Archive\Newport
+192.168.0.20/img4/prism/images;\\ac2\data\Patient Archive\Newport
+192.168.2.5/img33/prism/images;\\ac2\data\Patient Archive\Bellevue
+192.168.2.7/img36/prism/images;\\ac2\data\Patient Archive\Bellevue
+192.168.1.5/img6/images;\\ac2\data\Patient Archive\Fairfield
+192.168.1.6/img12/prism/images;\\ac2\data\Patient Archive\Fairfield
+192.168.10.2/img21/prism/images;\\ac2\data\Patient Archive\Atlanta
+192.168.11.2/img25/prism/images;\\ac2\data\Patient Archive\New York
+192.168.3.5/img41/prism/images;\\ac2\data\Patient Archive\Reston

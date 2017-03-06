@@ -1,0 +1,119 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ACI_Common_Functions
+</name>
+</assembly>
+<members>
+<member name="P:ACI_Common_Functions.ACICommonFunctions.FSConn">
+	<summary>
+ Gets or set the connection string pointing to the Odyssey FileStream-enabled SQL Server
+ </summary>
+</member><member name="P:ACI_Common_Functions.ACICommonFunctions.RConn">
+	<summary>
+ Gets or sets the connection string pointing to the Research Database
+ </summary>
+</member><member name="P:ACI_Common_Functions.ACICommonFunctions.logPath">
+	<summary>
+ Gets or sets the full file path to the log file in which to log errors encountered during procedures
+ </summary>
+</member><member name="M:ACI_Common_Functions.ACICommonFunctions.getFTPPaths(System.String,System.String,System.String,ACI_Common_Functions.ACICommonFunctions.ftpSearchFor,System.DateTime)">
+	<summary>
+ Searches recursively through the remote path for files modified since lastWriteFrom
+ </summary>
+	<param name="remotePath">The full path to the remote directory (e.g. 192.168.0.80/img16/prism/images/2013</param>
+	<param name="un">The username used to access the remote ftp server</param>
+	<param name="pw">The password used to access the remote ftp server</param>
+	<param name="directoryType">Use AllDirectories to search recursively and nondiscriminantly through all subdirectories;
+  Use PFolderDirectories to obtain only those directories of the form PX, where X is 1 or more numeric digits</param>
+	<param name="lastWriteFrom">The date after which directories and files were modified; specify 'Nothing' to retrieve everything</param>
+	<returns>Returns an array of full remote paths to files</returns>
+</member><member name="M:ACI_Common_Functions.ACICommonFunctions.doTelnet(System.String[],System.String)">
+	<summary>
+ Executes a series of commands within a telnet session
+ </summary>
+	<param name="commandList">A list of the commands to execute (e.g. mkdir /usr/prism/test_directory)</param>
+	<param name="ip">The IP address of the machine hosting the telnet session (i.e. the machine to connect to)</param>
+</member><member name="M:ACI_Common_Functions.ACICommonFunctions.updateBinary(System.Byte[],System.Int32,System.String,System.Int32,System.Boolean)">
+	<summary>
+ Modifies the binary data of a byte array (intended file type: Picker Odyssey)
+ </summary>
+	<param name="binary_data">The byte array containing the binary data</param>
+	<param name="start_position">The decimal-based starting position at which to start replacing data</param>
+	<param name="data">The string replacement value</param>
+	<param name="total_length">The total length of the number of bytes to replace. Unused space is right-padded with 0 values</param>
+	<param name="OdysseyDate">Whether the new data should be formatted as an Odyssey date</param>
+	<returns>A byte array containing the updated data</returns>
+	<remarks>This method does NOT modify the size of the original array. An error is thrown if the length of the replacement string is larger than the total_length parameter.
+ </remarks>
+</member><member name="M:ACI_Common_Functions.ACICommonFunctions.parseOdysseyData(System.String)">
+	<summary>
+ Parses Odyssey data into a FileStream-enabled SQL Database
+ </summary>
+	<param name="fullPath">Full path location of the Odyssey data to parse</param>
+	<returns>Returns a status message of the operation (e.g. Data parsed into SPECT_Data)</returns>
+	<remarks></remarks>
+</member><member name="M:ACI_Common_Functions.ACICommonFunctions.odysseyToROI(System.Int64,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Converts an Odyssey file in SPECT_Data (FileStream database) to an ROI .csv report
+ </summary>
+	<param name="SPECT_Data_Data_ID">Data_ID corresponding to the Odyssey file (see remarks)</param>
+	<param name="remotePath">The full path to the remote Odyssey directory (e.g. 192.168.0.80/usr/ResearchOFiles) (see remarks)</param>
+	<param name="un">The username for the remote ftp server (for Odyssey, this is the root account)</param>
+	<param name="pw">The password the remote ftp server (for Odyssey, this is the default root password)</param>
+	<param name="interfileDirectory">Directory to store the converted interfile</param>
+	<param name="AnalyzeDirectory">Directory to store the converted analyze image pair (.hdr and .img)</param>
+	<param name="AtlasClusterDirectory">Directory to store the atlas and cluster files</param>
+	<param name="reportFileDirectory">Directory to store the final report file</param>
+	<param name="manifestDirectory">Directory to store the manifest files</param>
+	<returns>An array containing paths to (in order): interfile, analyze header, analyze image, report file</returns>
+	<remarks></remarks>
+</member><member name="M:ACI_Common_Functions.ACICommonFunctions.parseROI(System.String)">
+	<summary>
+ Parses an ROI report file into the research database
+ </summary>
+	<param name="reportFile">The full path to the .csv report file</param>
+	<returns>A string message containing the status of the operation</returns>
+	<remarks></remarks>
+</member><member name="M:ACI_Common_Functions.ACICommonFunctions.parseReadings(System.String)">
+	<summary>
+ Parses a SPECT reading document into the research database
+ </summary>
+	<param name="filename">The full path to an Excel SPECT reading document</param>
+	<returns>An integer representing: the operation failed (0), the reading was parsed but not matched (1), or the reading was parsed and matched (2)</returns>
+	<remarks></remarks>
+</member><member name="M:ACI_Common_Functions.ACICommonFunctions.getFileBinary(System.String)">
+	<summary>
+ Obtains a byte array of the file contents of a file
+ </summary>
+	<param name="filepath">The full path to the file</param>
+	<returns>A byte array</returns>
+	<remarks></remarks>
+</member><member name="M:ACI_Common_Functions.ACICommonFunctions.getSHA1Hash(System.String)">
+	<summary>
+ Generates an SHA1 checksum string for a file
+ </summary>
+	<param name="filepath">The full path to the file</param>
+	<returns>A 40 character message digest (checksum) in hexadecimal format</returns>
+	<remarks></remarks>
+</member><member name="P:ACI_Common_Functions.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ACI_Common_Functions.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ACI_Common_Functions.My.Resources.Resources.tst10">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="T:ACI_Common_Functions.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
