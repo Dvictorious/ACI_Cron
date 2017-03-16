@@ -180,18 +180,16 @@ Public Class Start
         '    Catch ex As Exception
         '        JpegTransferBackgroundWorker.ReportProgress(0, ex.Message)
         '    End Try
-        'Next
-        'Set string variable to hold year value 03/16/2017 Derek V. Taylor
-        Dim tyear As String = DatePart(DateInterval.Year, Date.Today).ToString
+        'Next 
+            Dim tyear As String = DatePart(DateInterval.Year, Date.Today).ToString
             Try
                 Dim destAndftpSites As New List(Of KeyValuePair(Of String, String))
-            'key = remote parent path | value = destination parent path
-            For Each srcDtnPair As String In My.Settings.JpegTransferSrcDestList
-                ''Ad year to source string 
-                destAndftpSites.Add(New KeyValuePair(Of String, String)(srcDtnPair.Substring(srcDtnPair.IndexOf(";") + 1),
-                            srcDtnPair.Substring(0, srcDtnPair.IndexOf(";")) + tyear))
-            Next
-            Dim mainList As New List(Of KeyValuePair(Of String, KeyValuePair(Of String, String)))
+                'key = remote parent path | value = destination parent path
+                For Each srcDtnPair As String In My.Settings.JpegTransferSrcDestList
+                    destAndftpSites.Add(New KeyValuePair(Of String, String)(srcDtnPair.Substring(srcDtnPair.IndexOf(";") + 1), _
+                            srcDtnPair.Substring(0, srcDtnPair.IndexOf(";"))))
+                Next
+                Dim mainList As New List(Of KeyValuePair(Of String, KeyValuePair(Of String, String)))
                 mainList = getFTPFolders(destAndftpSites)
                 Dim dirList As New List(Of String)
                 Dim i As Integer = 0
@@ -442,7 +440,6 @@ Public Class Start
             End Select
             Dim patFolder As String = Nothing
             Dim foundFolder As Boolean = False
-            ''Lext line leads to error when path not found
             Dim narrowedpatFolders As String() = Directory.GetDirectories(destDir & "\" & archYear & "\" & archIndex, jpegDir.Substring(0, jpegDir.IndexOf("_")) & "*", _
                     IO.SearchOption.TopDirectoryOnly)
             If narrowedpatFolders.Count > 0 Then
